@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+    margin: 10px;
+    padding: 0;
+}
+
+.contentimage {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user {
+    color:#FF725E;
+    font-family: Verdana;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.insertuser {
+    color:#455A64;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.password {
+    color:#FF725E;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.insertpassword {
+    color:#455A64;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 1.5;
+    line-break: 125%;
+    break-after: 125%;
+}
+
+button {
+    border: solid 1px #FF725E;
+    border-radius: 5px;
+    color:#FF725E;
+    background-color: #f3f4f7;
+    box-shadow: 5px 5px 10px 0 #455A64;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
