@@ -1,29 +1,30 @@
 body {
     background-color: white;
-    margin: 10px;
+    margin: auto;
     padding: 0;
 }
 
-.contentimage {
+.container{
     display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 80%;
+    column-gap: 15px; /*/* "margin""/*/
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    padding: 10px;
+}
+
+/*/* Divs formating/*/
+.contentimage {
+    display: inline-block;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 80%;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 }
 
-
+/*/* Form formating/*/
 .form {
     display: flex;
     flex-direction: row;
@@ -32,36 +33,32 @@ body {
 }
 
 
-.user {
+
+/*/* Form User elements formating/*/
+h1 {
+    color:#FF725E;
+    font-family: Verdana;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+label {
     color:#FF725E;
     font-family: Verdana;
     font-size: 15px;
-    line-height: 2;
-    font-weight: bold;
+    line-height: 1.5;
 }
 
-.insertuser {
+input {
     color:#455A64;
     font-family: Verdana;
     font-size: 12px;
     line-height: 1.5;
-}
-
-.password {
-    color:#FF725E;
-    font-family: Verdana;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 2;
-}
-
-.insertpassword {
-    color:#455A64;
-    font-family: Verdana;
-    font-size: 12px;
-    line-height: 1.5;
-    line-break: 125%;
-    break-after: 125%;
 }
 
 button {
@@ -74,5 +71,39 @@ button {
     font-size: 15px;
     font-weight: bold;
     line-height: 1.5;
+}
+
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    font-family: Verdana;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+#users td, #users th {
+    border: 1px solid #FF725E;
+    text-align: left;
+    padding: 5px;
+}
+
+#users tr:nth-child(even){background-color: #f3f4f7;}
+
+#users tr:hover {background-color: #caccd1;}
+
+#users th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #FF725E;
+    color: black;
+    border-collapse: collapse;
+}
+
+.table{
+    overflow-x: auto;
 }
 
