@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AAA</title>
-  <link rel="icon" href="image/Fingerprinticon2.png" type="image/x-icon">
+  <title>AA AA</title>
+  <link rel="icon" href="image/pizza.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <canvas id="myCanvas"></canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(125, 50, 60, 0, 2*Math.PI);
+ctx.stroke();
+</script> 
 
 </body>
 </html>
